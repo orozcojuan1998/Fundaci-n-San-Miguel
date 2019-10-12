@@ -64,6 +64,11 @@
 	display: block;
 }
 
+a.disabled {
+	pointer-events: none;
+	cursor: default;
+  }
+
 @media only screen and ( max-width: 32.5em ) /* 520 */
 {
 	body
